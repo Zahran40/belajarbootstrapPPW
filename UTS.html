@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS PROWEB</title>
+</head>
+<style>
+    form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    padding: 20px;
+    background-color: rgb(36, 36, 38);
+    box-shadow: 0 4px 8px rgba(0, 0.5, 0.5, 0.5); 
+    border-radius: 16px;
+    color: aqua;
+    border: 4px solid aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    backdrop-filter: blur(70px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+label {
+    padding: 8px;
+    color: aqua;
+    font-size: medium;
+}
+
+
+input {
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tombol {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.btn {
+    transition: all 0.4s;
+    margin-left: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+
+}
+
+button[type="submit"] {
+    padding: 8px;
+    margin: 8px;
+    background-color:rgb(10, 26, 75);
+    color: white;
+    border-radius: 12px;
+    width: 80px;
+    height: 40px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+button[type="reset"] {
+    padding: 8px;
+    margin: 8px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(10, 26, 75);
+    border-radius: 12px;
+    width: 80px;
+    height: 40px;
+    font-size: medium;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(34, 34, 34);
+    justify-content: center;
+    align-items: center;
+   
+}
+
+h1 {
+    color: aqua;
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+</style>
+<body>
+    <div>
+        <h1>
+            REGISTERASI ANGGOTA
+        </h1>
+        <form>
+            <label for="nama">Username :</label>
+            <input type="text" id="nama" required placeholder="Masukkan username">
+
+            <label for="pass">Password :</label>
+            <input type="password" id="pass" required placeholder="Masukkan password">
+        <div class="tombol">
+            <div class="btn">
+            <button type="submit" onclick="Register()">Register</button>
+        </div>
+        <div class="btn">
+            <button type="reset">Reset</button>
+        </div>
+        </div>
+        </form>
+    </div>
+   
+</body>
+<script>
+    function Register(){
+        let  username = document.getElementById("nama").value;
+        let password  = document.getElementById("pass").value;
+
+        
+
+
+    }
+</script>
+</html>

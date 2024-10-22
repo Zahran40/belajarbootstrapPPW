@@ -1,0 +1,92 @@
+.flex-item {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+
+}
+
+.flex-container1 {
+    background-color: aquamarine;
+    display: flex;
+    justify-content:safe;
+    align-items:flex-end;
+    height: 1000px;
+    width: 1000px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    margin-bottom: 30px;
+}
+
+
+.flex-container {
+    background-color: aquamarine;
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    height: 1000px;
+    width: 1000px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.flex-container2 {
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    width: 1000px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+
+.content-5 {
+    padding: 15px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    padding: 20px;
+    background-color: rgb(193, 170, 214);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 1);
+    border-radius: 16px;
+}
+
+input,select {
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    padding: 8px;
+}
+
+button[type="submit"] {
+    padding: 8px;
+    margin: 8px;
+    background-color: rgb(95, 65, 123);
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
